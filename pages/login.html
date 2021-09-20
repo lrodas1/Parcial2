@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luisfer Dev</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="shortcut icon" href="../images/Logo.svg" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <div class="big-wrapper light">
+        <img src="../images/shape.png" alt="" class="shape" />
+
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="../images/Logo.svg" alt="Logo" />
+              <h3>Danvo</h3>
+            </div>
+
+            <!-- Enlaces a otras páginas-->
+            <div class="links">
+              <ul>
+                <li><a href="../index.html" target="_blank">Inicio</a></li>
+                <li><a href="productos.html" target="_blank">Productos</a></li>
+                <li><a href="maspedidos.html" target="_blank">Más Pedidos</a></li>
+                <li><a href="registrar.html" class="butn" id="bt" target="_blank">Sign up</a></li>
+              </ul>
+            </div>
+
+            <div class="overlay"></div>
+
+            <!-- Menú estilo hamburguesa para dispositivos pequeños-->
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+
+        <div class="showcase-area">
+            <div class="container">
+                
+	            <div class="container">
+		            <div class="img">
+			            <img src="../images/Login.svg">
+		            </div>
+		            <div class="login-content">
+                  <!--Formulario de Inicio de sesión-->
+			            <form>
+                            <img src="../images/Avatar.svg">
+                            <div class="big-title">
+                                <h1>Welcome</h1>
+                            </div>
+                            <div class="input-div one">
+                                <div class="i">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="div">
+                                    <h5>Username</h5>
+                                    <input type="text" class="input" id="user">
+                                </div>
+           		            </div>
+                            <div class="input-div pass">
+                                <div class="i"> 
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                                <div class="div">
+                                    <h5>Password</h5>
+                                    <input type="password" class="input" id="password">
+                                </div>
+                            </div>
+            	            <a href="#" class="a-login">Olvidaste Tu Contraseña?</a>
+                            <a href="registrar.html" class="a-login">No Poseo Una Cuenta</a>
+            	            <input type="submit" class="btn-login" value="Login" onclick="login()">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Botones para cambiar de modo claro - obscuro-->
+        <div class="bottom-area">
+          <div class="container">
+            <button class="toggle-btn">
+              <i class="far fa-moon"></i>
+              <i class="far fa-sun"></i>
+            </button>
+          </div>
+        </div>
+        <!--Pie de página-->
+        <footer>
+          <li>Luisfer Developer &#174</li>
+          <li>2021</li>
+        </footer>
+      </div>
+    </main>
+
+    <!-- Archivos JS -->
+    <script src="https://kit.fontawesome.com/45b9321952.js" crossorigin="anonymous"></script>
+    <script src="../scripts/app.js"></script>
+  </body>
+</html>
